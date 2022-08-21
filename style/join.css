@@ -3,10 +3,10 @@
   height: 40px;
   border: rgb(58, 58, 58) 1px solid;
   font-size: 10px;
+  padding: 10px;
 }
 #join_btn input {
-  margin-left: 10px;
-  width: 458px;
+  width: 450px;
   height: 40px;
   color: white;
   border-radius: 5px;
@@ -15,12 +15,11 @@
   font-size: 15px;
 }
 #inbox {
-  width: 500px;
-  margin-left: 34%;
-  margin-top: 120px;
+  height: calc(100vh-120px);
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  margin-top: 120px;
+  align-items: center;
 }
 #textid {
   margin-left: 330px;

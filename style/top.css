@@ -1,14 +1,10 @@
-* {
-  font-family: "Georgia";
-  color: rgb(58, 58, 58);
-}
-
 #container a {
   text-decoration: none;
   color: rgb(82, 82, 82);
 }
 
-a:hover {
+#container a:hover {
+  color: pink;
   cursor: pointer;
 }
 
