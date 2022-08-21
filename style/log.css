@@ -19,10 +19,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 200px);
 }
 #textid {
-  margin-left: 330px;
+  margin-left: 310px;
   color: rgb(128, 128, 128);
   font-size: 14px;
 }
