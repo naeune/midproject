@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bttrprsnt</title>
-    <link rel="stylesheet" type="text/css" href="top.css" />
+    <link rel="stylesheet" type="text/css" href="./style/reset.css">
+    <link rel="stylesheet" type="text/css" href="./style/top.css" />
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMIaeDy0enXiyKxN7bFe5WgjoOxlXSpMg"></script>
-
     <style>
       #image{
         width: 100%;
         text-align: center;
         border-top: rgb(128, 128, 128) 1px solid;
       }
-
       #myCanvas {
         width: 800px;
         height: 400px;
@@ -34,19 +33,14 @@
     </style>
         <script>
           function myMap() {
-            // mapCanvas 객체 변수 생성
             var mapCanvas = document.getElementById("myCanvas");
-            // 지도에 표시하고 싶은 기준 좌표 설정
             var myLatlng = new google.maps.LatLng(37.498146, 127.027557);
-    
             var mapOptions = {
               center: myLatlng, // 센터는 입력한 위도,경도
               zoom: 16, // zoom : 16 아까보다 훨씬 더 확대된 지도 출력
               mapTypeId: google.maps.MapTypeId.ROADMAP, // 로드맵 형태
             };
-            // 구글 맵 생성
             var map = new google.maps.Map(mapCanvas, mapOptions);
-    
             var marker = new google.maps.Marker({
               position: myLatlng,
               map: map,
@@ -54,7 +48,6 @@
               title: "지하철 강남역에서 하차",
               // 마커: 도움말 풍선(마우스 오버 시)
             });
-    
             // 다음 내용을 담은 말풍선을 생성
             var contentString =
               '<div style="width: 100px; height: 30px;">the way you are coming</div>';
@@ -66,7 +59,6 @@
             // 마커를 클릭하면 이벤트를 만들 수 있음
             google.maps.event.addListener(marker, "click", function () {
               infowindow.open(map, marker);
-    
               if (marker.getAnimation() != null) {
                 marker.setAnimation(null);
               } else {
@@ -98,6 +90,5 @@
     </div>
     <div id="myCanvas"></div>
     <div class="adrs">101, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea</div>
-
   </body>
 </html>
