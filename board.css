@@ -1,0 +1,64 @@
+#tbl_list {
+  color: #3246aa;
+}
+
+#reply {
+  color: #3246aa;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+}
+.write {
+  float: right;
+  color: white;
+  margin-right: 40px;
+  padding: 8px;
+  border-radius: 7px;
+  background: #3246aa;
+}
+
+.card-body {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  border-top: rgb(113, 113, 113) 1px solid;
+  border-bottom: rgb(113, 113, 113) 1px solid;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+}
+
+.tbl_content {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(58, 58, 58);
+}
+
+table a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+}
+
+tr {
+  height: 40px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.page_list {
+  list-style-type: none;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.page_item {
+  padding: 20px;
+}

@@ -1,0 +1,45 @@
+#inbox input {
+  width: 600px;
+  height: 40px;
+  border: rgb(58, 58, 58) 1px solid;
+  font-size: 12px;
+}
+
+textarea {
+  width: 600px;
+  height: 500px;
+  border: rgb(58, 58, 58) 1px solid;
+  font-size: 12px;
+  resize: none;
+}
+#cnfm_btn input {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  width: 608px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #3246aa;
+  font-size: 15px;
+}
+#inbox {
+  width: 500px;
+  margin-left: 29%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+#textid {
+  margin-left: 330px;
+  color: rgb(128, 128, 128);
+  font-size: 14px;
+}
+.box_title {
+  padding: 10px;
+}
+.box_content {
+  padding: 10px;
+}
