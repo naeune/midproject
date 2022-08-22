@@ -1,6 +1,8 @@
 #inbox input {
   width: 600px;
   height: 40px;
+  margin-left: auto;
+  margin-right: auto;
   border: rgb(58, 58, 58) 1px solid;
   font-size: 12px;
 }
@@ -8,29 +10,30 @@
 textarea {
   width: 600px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
   border: rgb(58, 58, 58) 1px solid;
   font-size: 12px;
   resize: none;
 }
 #cnfm_btn input {
-  margin-top: 5px;
-  margin-left: 10px;
-  margin-bottom: 30px;
-  width: 608px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
   height: 40px;
   color: white;
   border-radius: 5px;
   border-style: none;
   background-color: #3246aa;
   font-size: 15px;
+  margin-bottom: 50px;
 }
 #inbox {
-  width: 500px;
-  margin-left: 29%;
-  margin-top: 80px;
+  height: calc(100vh-120px);
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  margin-top: 120px;
+  align-items: center;
 }
 #textid {
   margin-left: 330px;
